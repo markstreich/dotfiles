@@ -1,5 +1,5 @@
 " 
-" Vim settings for @mscoutermarsh
+" Vim settings for @markstreich
 "
 
 " Settings in this file may depend on plugins, so let's install them first.
@@ -98,10 +98,4 @@ if has('nvim')
   set termguicolors
   colorscheme NeoSolarized
   set background=dark
-
-  " Fix vim-tmux-navigator <C-h> https://git.io/viGRU
-  nmap <BS> <C-W>h
-
-  " Fix vim-tmux-navigator <C-h> https://git.io/vS5QH
-  nmap <BS> :<C-u>TmuxNavigateLeft<CR>
 endif
