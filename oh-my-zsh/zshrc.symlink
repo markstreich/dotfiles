@@ -74,6 +74,7 @@ alias dclf='docker-compose logs -f'
 alias dcpull='docker-compose pull'
 alias dcstart='docker-compose start'
 alias fixcamera='sudo killall VDCAssistant'
+alias mysqlwb='/Applications/MySQLWorkbench.app/Contents/MacOS/MySQLWorkbench'
 
 SAVEHIST=1000
 HISTFILE=~/.zsh_history
